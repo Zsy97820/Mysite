@@ -1,0 +1,144 @@
+*{margin: 0px;padding: 0px;}
+
+h1{
+	position: absolute;
+	top: 50px;
+	color: #fff;
+	font-family: arial;
+	text-shadow: 1px 2px 2px rgba(0,0,0,0.5);
+}
+.bulr{
+		width: 100%;
+		height: 730px;
+		border: 1px solid #000;
+		margin: 0px auto;
+		text-align: center;
+		position: relative;
+		top: 5px;
+		background: no-repeat;
+		background-size: cover;
+		z-index: -1;
+	    -webkit-filter: blur(8px); /* Chrome, Opera */
+	    -moz-filter: blur(8px);
+	    -ms-filter: blur(8px);    
+	    filter: blur(8px);    
+	    background: cover;
+	    background-image: url(../img/6.jpg);
+}
+.higher{
+		width: 700px;
+		height: 420px;
+		background: url(../img/6.jpg) no-repeat;
+		background-size: cover;
+		position: absolute;
+		top: 150px;
+		border-radius: 5px;
+		box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+				
+}
+.preview ul{
+		list-style: none;
+		position: absolute;
+		top: 153px;
+		text-align: center;
+}
+.preview ul li{
+		/*float: left;*/
+	 	margin-right:10px;
+		margin-bottom: 5px;
+		border-radius: 5px;
+		padding: 0px;
+		display: block;
+		width: 80px;
+		height: 75px;
+		box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+		border: 2px solid rgba(0,0,0,0);
+}
+			/*.preview ul li:nth-child(1){
+				float: left;
+				margin-left:20px;
+			}*/
+.preview ul li img{
+		width: 80px;
+		height: 75px;
+		border-radius: 5px;
+				
+}
+.preview ul li:hover{
+		border: 2px solid orange;
+			
+}
+.focusimg{
+		border: 2px solid #fff;
+}
+.nav{
+	position: absolute;
+	top: 220px;
+	z-index: 1000;
+}
+.nav ul{
+	list-style: none;
+	text-align: center;
+
+}
+.nav .li_o{
+	float: left;
+	display: box;
+	width: 70px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid rgba(0,0,0,0.6);
+
+}
+.nav .li_o p{
+	display: box;
+	width: 100%;
+	border-bottom: 1px solid rgba(0,0,0,0.6);
+
+}
+.nav .ul_o :hover{
+	border:1px solid #fff;
+	color: white;
+}
+
+.nav .ul_i{
+	display: none;
+	color: #000;
+}
+.nav .ul_i:hover{
+	border: none;
+	color: #000;
+}
+.nav .li_i{
+	display: box;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid rgba(0,0,0,0.6);
+	color: rgba(0,0,0,0.6);
+}
+
+iframe{
+	position: absolute;	
+	top: 460px;
+	width: 355px;
+	opacity: 0.5;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	/*-webkit-filter: blur(0.7px); 
+	-moz-filter: blur(0.7px);
+	-ms-filter: blur(0.7px);    
+	filter: blur(0.7px);*/  
+}
+.scroll{
+	height: 100px;
+	width: 100px;
+	background-image: url(../img/arrow.png);
+	background-size: cover;
+	/*background-color: red;*/
+	transform: rotate(90deg) scale(0.5,1.2);
+	position: absolute;
+	opacity: 0.7;
+	top: 600px;
+}
+
+html { overflow-x: hidden; overflow-y: hidden; }
